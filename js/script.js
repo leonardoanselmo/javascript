@@ -1,1 +1,3 @@
-console.log("Olá Mundo! Léo Ansélmo -.");
+const nome = 'JavaScript';
+
+console.log(nome);
