@@ -1,3 +1,11 @@
 .ativo {
   margin-top: 200px;
 }
+
+.texto {
+  display: none;
+}
+
+.texto.ativar {
+  display: block;
+}
