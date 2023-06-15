@@ -1,3 +1,13 @@
-const nome = 'JavaScript';
+const nav = document.querySelector("nav");
+const produtos = document.querySelector(".produtos a");
 
-console.log(nome);
+console.log(nav);
+console.log(produtos);
+
+console.log(produtos.innerHTML);
+
+nav.style.backgroundColor = "black";
+nav.style.padding = "1rem";
+
+nav.classList.add("ativo");
+
