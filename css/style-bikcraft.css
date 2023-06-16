@@ -1,0 +1,33 @@
+h1 {
+  background-color: #e6e2e2;
+  width: max-content;
+  padding: 0 20px 0px 20px;
+}
+
+img {
+  max-width: 100%;
+  display: block;  
+}
+
+li img {
+  transition: 0.2s;
+}
+
+li img:hover {
+  opacity: 0.8;
+}
+
+#galeria {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#galeria ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-bottom: 10px;
+}
